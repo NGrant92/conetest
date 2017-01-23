@@ -15,6 +15,7 @@ public class Cone extends JFrame
      private int f;
      private int h;
      private boolean isVisible;
+     private String random;
      
     public static void main(String[] args)
     {
@@ -23,6 +24,7 @@ public class Cone extends JFrame
     
     public void paint(Graphics g)
     {
+        random = "this is a test for github";
         ax = 125;
         ay = 250;
         bx = 200;
